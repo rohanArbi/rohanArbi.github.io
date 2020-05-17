@@ -1,0 +1,54 @@
+h1 {
+  text-shadow: 2px 2px #FF0000;
+}
+body {
+	background-image: url("background.jpg");
+
+}
+div.transbox {
+	 margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+div.h1 {
+	color:#000099;
+}
+.side {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.side a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.side a:hover {
+  color: #f1f1f1;
+}
+.side a:active{
+	color:blue;
+}
+.content {
+  margin-left: 160px; /* Same as the width of the sidenav */
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   opacity: 0.6
+   color: black;
+   text-align: center;
+}
